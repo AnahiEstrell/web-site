@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anahí Estrella - Full-Stack Developer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <%- include('partials/navbar') %>
+    <section class="hero container">
+      <div class="hero-text">
+        <h1>Hello, I'm Anahí Estrella</h1>
+        <h2>Full-Stack Developer</h2>
+        <a href="#projects" class="btn">View Projects</a>
+      </div>
+      <div class="hero-image">
+        <img src="/img/perfil.jpeg" alt="Anahi Smith Photo" />
+      </div>
+    </section>
+
+    <%- include('partials/about') %>
+
+    <section class="projects container" id="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <h3>Project One</h3>
+          <p>A description of the project goes here.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Project Two</h3>
+          <p>A description of the project goes here.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Project Three</h3>
+          <p>A description of the project goes here.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="tecnologies">
+      <div class="container">
+        <h2>Tecnologies</h2>
+        <div class="skill-icons">
+          <div>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+              alt="Docker"
+            />
+            <p>Docker</p>
+          </div>
+          <div>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+              alt="Django"
+            />
+            <p>Django</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <%- include('partials/contact') %>
+  <%- include('partials/footer') %>
+</html>
