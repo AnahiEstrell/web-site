@@ -1,0 +1,29 @@
+{
+  "name": "web-site",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/AnahiEstrell/web-site#readme",
+  "bugs": {
+    "url": "https://github.com/AnahiEstrell/web-site/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnahiEstrell/web-site.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.5",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "web-site": "file:"
+  }
+}
