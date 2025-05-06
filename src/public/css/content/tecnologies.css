@@ -1,0 +1,28 @@
+
+.skills {
+    background-color: #fff;
+    color: #0e1a2b;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.skill-icons {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.skill-icons div {
+    text-align: center;
+}
+
+.skill-icons img {
+    width: 60px;
+    margin-bottom: 10px;
+}
