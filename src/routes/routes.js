@@ -24,7 +24,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/download-cv', (req, res) => {
-  const file = path.join(__dirname, '..', 'public', 'pdf', 'cv.pdf');
+  const file = path.join(__dirname, '..', 'public', 'pdf', 'CV.pdf');
   res.download(file, 'CV.pdf');
 });
 
