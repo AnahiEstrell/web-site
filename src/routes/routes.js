@@ -6,10 +6,10 @@ require('dotenv').config();
 
 const router = Router();
 
-// Configurar almacenamiento de archivos
+
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, 'uploads/'); // Asegúrate de que esta carpeta exista
+    cb(null, 'uploads/');
   },
   filename: function (req, file, cb) {
     cb(null, Date.now() + path.extname(file.originalname));
@@ -31,7 +31,7 @@ router.get('/download-cv', (req, res) => {
 // Ruta para recibir el formulario con archivo
 router.post('/enviar', async (req, res) => {
   const { nombre, mensaje } = req.body;
-  console.log('Datos recibidos:', req.body); // Esto ahora sí funcionará
+  console.log('Datos recibidos:', req.body);
 
   const transporter = nodemailer.createTransport({
     service: 'gmail',
