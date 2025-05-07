@@ -1,0 +1,92 @@
+/* General section styling */
+.form-section {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Section title */
+  .section-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #1a1a1a;
+    margin-bottom: 30px;
+  }
+  
+  /* Form fields */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #008cff; /* Azul claro */
+    outline: none;
+  }
+  
+  /* Submit button */
+  .btn-contact {
+    width: 100%;
+    padding: 12px;
+    background-color: #008cff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-contact:hover {
+    background-color: #006fd6; /* Azul más oscuro al pasar el mouse */
+  }
+  
+  /* Success / error message */
+  #alerta {
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  #alerta.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+  }
+  
+  #alerta.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+  }
+  
