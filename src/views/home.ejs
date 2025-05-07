@@ -3,17 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anahí Estrella - Full-Stack Developer</title>
+    <title>Anahí Estrella - Portfolio</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="/img/logo.png" type="image/png" />
     <link rel="stylesheet" href="/css/index.css" />
     <link rel="stylesheet" href="/css/navbar.css" />
     <link rel="stylesheet" href="/css/content/about.css" />
     <link rel="stylesheet" href="/css/content/hero.css" />
     <link rel="stylesheet" href="/css/content/projects.css" />
     <link rel="stylesheet" href="/css/content/tecnologies.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
     <link rel="stylesheet" href="/css/footer.css" />
   </head>
   <body>
@@ -22,6 +25,11 @@
     <%- include('partials/content/about') %>
     <%- include('partials/content/projects') %>
     <%- include('partials/content/tecnologies') %>
+    
+    <!--Scripts-->
+    <script src="/js/navbar.js" defer></script>
+    <script src="/js/download-cv.js" defer></script>
+    <script src="/js/tecnologies.js" defer></script>
   </body>
   <%- include('partials/contact') %>
   <%- include('partials/footer') %>
