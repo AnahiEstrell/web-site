@@ -1,18 +1,24 @@
 <section class="form-section" id="contact">
   <div class="section-container">
     <h2>Contact me</h2>
-    <form action="/enviar" method="POST">
+    <form id="formulario">
       <div class="form-group">
         <label for="nombre">Asunto</label>
         <input type="text" id="nombre" name="nombre" required />
       </div>
-
+    
       <div class="form-group">
         <label for="mensaje">Mensaje</label>
         <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
       </div>
-
+    
       <button type="submit" class="btn-contact">Enviar</button>
     </form>
+    
+    <!-- Mensaje de respuesta -->
+    <div id="alerta" style="display:none; padding: 10px; margin-top: 10px;"></div>
+      
   </div>
 </section>
+
+<script src="/js/formulario.js"></script>
